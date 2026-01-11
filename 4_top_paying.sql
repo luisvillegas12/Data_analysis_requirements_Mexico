@@ -1,3 +1,4 @@
+--Revisar aquellos valores que pudieran alterar la media
 SELECT
     job_id,
     job_title,

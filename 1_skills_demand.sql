@@ -11,3 +11,4 @@ WHERE
 GROUP BY skills_dim.skills
 HAVING COUNT(skills_job_dim.job_id) >= 1000
 ORDER BY demand_count DESC);
+
